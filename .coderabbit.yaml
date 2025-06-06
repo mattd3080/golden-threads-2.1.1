@@ -1,0 +1,64 @@
+# CodeRabbit AI Configuration for Golden Threads
+# Optimized for React Native/Expo TypeScript project
+
+reviews:
+  # Enable path-based filtering  
+  path_filters:
+    - "!node_modules/**"
+    - "!.git/**"
+    - "!*.lock"
+    - "!assets/adaptive-icon.png"
+    - "!assets/icon.png"
+    - "!assets/splash-icon.png"
+    - "!assets/favicon.png"
+  
+  # Focus on these file types
+  include_patterns:
+    - "**/*.tsx"
+    - "**/*.ts" 
+    - "**/*.json"
+    - "**/*.md"
+    - "**/*.yaml"
+    - "**/*.yml"
+  
+  # Review focus areas for spiritual app
+  focus_areas:
+    - "Security vulnerabilities and API key exposure"
+    - "TypeScript strict mode compliance" 
+    - "React Native performance patterns"
+    - "Memory leak prevention"
+    - "Error handling and resilience"
+    - "Accessibility compliance"
+    - "Component modularity and reusability"
+    - "Async operation handling"
+    - "State management patterns"
+
+  # Enable detailed analysis
+  enable_code_suggestions: true
+  enable_security_scan: true  
+  enable_performance_analysis: true
+  enable_accessibility_check: true
+
+  # Custom prompts for spiritual content app
+  custom_instructions: |
+    This is a React Native spiritual companion app built with Expo and TypeScript.
+    
+    Key review priorities:
+    1. SECURITY: Never allow hardcoded API keys or secrets
+    2. PRIVACY: Ensure journal entries use local encryption (AES-256)
+    3. PERFORMANCE: Watch for memory leaks and unnecessary re-renders
+    4. MODULARITY: Components should be under 200 lines, screens under 150 lines
+    5. RESILIENCE: All async operations must have error handling
+    6. ACCESSIBILITY: Maintain WCAG AA compliance
+    7. SPIRITUAL CONTENT: Ensure respectful handling of religious/spiritual content
+    
+    Focus on TypeScript strict mode compliance and React Native best practices.
+
+# Auto-merge criteria (optional)
+auto_merge:
+  enabled: false  # Disable auto-merge for careful review
+
+# Notification settings
+notifications:
+  slack: false
+  email: true 
