@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, ViewStyle, StyleSheet, useWindowDimensions } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { SPACING, BORDER_RADIUS } from '../../src/constants';
+import { SPACING, BORDER_RADIUS } from '../constants';
 
 interface GradientCardProps {
     children: React.ReactNode;

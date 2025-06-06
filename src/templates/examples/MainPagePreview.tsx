@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { PageLayout } from '../../src/components/layout';
+import { PageLayout } from '../components/layout';
 import { Card, Button, Input, PromptCard, QuoteCardTemplate } from '../components';
 
 // Simplified preview component - just the visual design

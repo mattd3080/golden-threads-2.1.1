@@ -9,8 +9,8 @@ import {
     useWindowDimensions,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useSpiritualTraditions } from '../../src/hooks/useSpiritualTraditions';
-import { COLORS, FONTS, SPACING } from '../../src/constants';
+import { useSpiritualTraditions } from '../hooks/useSpiritualTraditions';
+import { COLORS, FONTS, SPACING } from '../constants';
 
 interface OnboardingTraditionsRebuiltProps {
     selectedTraditions: string[];

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, useWindowDimensions, Text, TouchableOpacity, SafeAreaView } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS, FONTS } from '../../src/constants';
+import { COLORS, FONTS } from '../constants';
 
 interface OnboardingWelcomeRebuiltProps {
     onNext: () => void;

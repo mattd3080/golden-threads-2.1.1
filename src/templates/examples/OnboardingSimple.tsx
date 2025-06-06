@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity, ScrollView, useWindowDimensions } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS, FONTS, SPACING } from '../../src/constants';
+import { COLORS, FONTS, SPACING } from '../constants';
 
 interface TemplateLink {
     id: string;

@@ -14,9 +14,9 @@ import {
     useWindowDimensions,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { PageLayout } from '../../src/components/layout';
-import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../../src/constants';
-import { useResponsiveStyles } from '../../hooks/useResponsiveStyles';
+import { PageLayout } from '../components/layout';
+import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../constants';
+import { useResponsiveStyles } from '../hooks/useResponsiveStyles';
 
 interface NotificationSettings {
     dailyWisdom: {

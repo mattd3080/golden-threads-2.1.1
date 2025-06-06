@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FlatList, RefreshControl, View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { PageLayout } from '../../src/components/layout';
+import { PageLayout } from '../components/layout';
 import { Card } from '../components';
-import { COLORS, FONTS, SPACING } from '../../src/constants';
+import { COLORS, FONTS, SPACING } from '../constants';
 
 interface ListItem {
     id: string;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text, ViewStyle, TextStyle, StyleSheet, Platform } from 'react-native';
-import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../../src/constants';
+import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../constants';
 import { useUniversalResponsive, getResponsiveSize, getResponsivePadding, getResponsiveFontSize } from '../utils/responsive';
 
 interface ButtonProps {

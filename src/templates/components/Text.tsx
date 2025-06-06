@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text as RNText, TextStyle, StyleSheet } from 'react-native';
-import { COLORS, FONTS } from '../../src/constants';
+import { COLORS, FONTS } from '../constants';
 import { useUniversalResponsive, getResponsiveFontSize } from '../utils/responsive';
 
 interface TextProps {

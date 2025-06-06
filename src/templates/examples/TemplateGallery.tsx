@@ -9,8 +9,8 @@ import {
     Platform,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../../src/constants';
-import { useResponsiveStyles } from '../../hooks/useResponsiveStyles';
+import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../constants';
+import { useResponsiveStyles } from '../hooks/useResponsiveStyles';
 
 interface TemplateLink {
     id: string;

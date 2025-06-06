@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { View, StyleSheet, Animated, useWindowDimensions } from 'react-native';
 import { Text } from './Text';
-import { COLORS } from '../../src/constants';
+import { COLORS } from '../constants';
 
 interface Feature {
     title: string;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, SafeAreaView, useWindowDimensions } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS } from '../../src/constants';
+import { COLORS } from '../constants';
 
 interface OnboardingPageTemplateProps {
     children: React.ReactNode;

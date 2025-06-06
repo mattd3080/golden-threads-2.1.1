@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Switch, TouchableOpacity, useWindowDimensions } from 'react-native';
-import { COLORS } from '../../src/constants';
+import { COLORS } from '../constants';
 
 interface SettingsRowProps {
     title: string;

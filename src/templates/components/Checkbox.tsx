@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity, StyleSheet, Platform, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { COLORS, BORDER_RADIUS } from '../../src/constants';
+import { COLORS, BORDER_RADIUS } from '../constants';
 import { useUniversalResponsive, getResponsiveSize } from '../utils/responsive';
 
 // Web-compatible icon component

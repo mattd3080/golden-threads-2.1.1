@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
-import { PageLayout } from '../../src/components/layout';
+import { PageLayout } from '../components/layout';
 import { Card, Button, Input } from '../components';
-import { useResponsiveStyles } from '../../hooks/useResponsiveStyles';
-import { MenuModal } from '../../src/components/modals/MenuModal';
+import { useResponsiveStyles } from '../hooks/useResponsiveStyles';
+import { MenuModal } from '../components/modals/MenuModal';
 
 interface SaveState {
     saving: boolean;

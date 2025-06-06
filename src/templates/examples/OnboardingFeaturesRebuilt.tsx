@@ -9,7 +9,7 @@ import {
     useWindowDimensions,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS, FONTS, SPACING } from '../../src/constants';
+import { COLORS, FONTS, SPACING } from '../constants';
 
 interface OnboardingFeaturesRebuiltProps {
     onContinue: () => void;

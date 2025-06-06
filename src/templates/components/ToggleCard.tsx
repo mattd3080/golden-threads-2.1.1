@@ -3,7 +3,7 @@ import { TouchableOpacity, StyleSheet, useWindowDimensions } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient';
 import { Text } from './Text';
 import { Checkbox } from './Checkbox';
-import { COLORS } from '../../src/constants';
+import { COLORS } from '../constants';
 
 interface ToggleCardProps {
     title: string;

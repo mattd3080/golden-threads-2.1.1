@@ -5,13 +5,13 @@ import {
     StyleSheet,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { PageLayout } from '../../src/components/layout';
-import { COLORS, FONTS, SPIRITUAL_TRADITIONS } from '../../src/constants';
-import { useAppStore } from '../../src/stores';
-import { useResponsiveStyles } from '../../hooks/useResponsiveStyles';
-import { ScreenProps } from '../../types/navigation';
-import { MenuModal } from '../../src/components/modals/MenuModal';
-import { useMenuModal } from '../../src/hooks/useMenuModal';
+import { PageLayout } from '../components/layout';
+import { COLORS, FONTS, SPIRITUAL_TRADITIONS } from '../constants';
+import { useAppStore } from '../stores';
+import { useResponsiveStyles } from '../hooks/useResponsiveStyles';
+import { ScreenProps } from '../types/navigation';
+import { MenuModal } from '../components/modals/MenuModal';
+import { useMenuModal } from '../hooks/useMenuModal';
 
 // Template components
 import { GradientCard, Checkbox } from '../components';

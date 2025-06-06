@@ -12,7 +12,7 @@ import {
     Modal,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../../src/constants';
+import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../constants';
 
 interface OnboardingNotificationsRebuiltProps {
     onComplete: (notificationsEnabled: boolean) => void;

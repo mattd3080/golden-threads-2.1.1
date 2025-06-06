@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text, ViewStyle } from 'react-native';
-import { useResponsiveStyles } from '../../hooks/useResponsiveStyles';
+import { useResponsiveStyles } from '../hooks/useResponsiveStyles';
 
 interface SaveState {
     saving: boolean;

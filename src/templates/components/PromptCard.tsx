@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, ViewStyle, StyleSheet } from 'react-native';
-import { formatContentText } from '../../src/utils';
+import { formatContentText } from '../utils';
 
 interface PromptCardProps {
     text: string;

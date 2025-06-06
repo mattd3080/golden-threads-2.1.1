@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TextInput, View, Text, StyleSheet, ViewStyle, TextStyle, useWindowDimensions, Platform } from 'react-native';
-import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../../src/constants';
+import { COLORS, FONTS, SPACING, BORDER_RADIUS } from '../constants';
 
 interface InputProps {
     value: string;
